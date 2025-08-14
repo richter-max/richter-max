@@ -1,6 +1,5 @@
 # Hello, I'm Max  
 <a href="https://www.linkedin.com/in/maximilian-richter-40697a298/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>  
-<a href="https://github.com/cleamax"><img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" /></a>
 
 I'm a 21-year-old currently training as an IT Specialist in Application Development at Bosch.  
 Passionate about **cybersecurity** and **blockchain security**, aiming to transition fully into smart contract auditing and offensive/defensive blockchain security engineering.
