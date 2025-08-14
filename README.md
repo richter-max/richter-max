@@ -12,7 +12,7 @@ Passionate about **cybersecurity**, with interests ranging from secure software 
 - **Hackathon** participation in security, blockchain, or DevOps topics  
 - **Open-source** contributions to security tools or backend frameworks  
 - Speaking engagements or demos on **Web Security** & **Secure Coding**  
-- **Full-time job opportunities** in backend or cybersecurity  
+- **Full-time job opportunities** in cybersecurity  
 - **Dual study program** positions in Computer Science or Cybersecurity  
 - **Scholarship opportunities** related to software engineering or Cybersecurity
   
