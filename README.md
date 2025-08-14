@@ -1,9 +1,10 @@
-# Hello, I'm Max  
+# Hello, I'm Max
 <a href="https://www.linkedin.com/in/maximilian-richter-40697a298/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>  
 
 I'm a 21-year-old German currently training as an IT Specialist in Application Development at Bosch (expected graduation: January 2026).  
-Passionate about **cybersecurity**, with interests ranging from secure software engineering and penetration testing to blockchain and smart contract security. 
---- 
+Passionate about **cybersecurity**, with interests ranging from secure software engineering and penetration testing to blockchain and smart contract security.
+
+---
 
 ## 🤝 Open to
 - Freelance **security reviews** for small websites/SaaS (legal & with consent)  
