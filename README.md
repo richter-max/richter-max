@@ -77,6 +77,6 @@ I now focus on building security-focused projects that demonstrate practical ski
 ---
 
 ## 📬 Contact
-📧 Email: **deine.email@example.com**  
+📧 Email: **max.richter.dev@proton.me**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/maximilian-richter-40697a298)  
 [![GitHub](https://img.shields.io/badge/GitHub-cleamax-black?style=flat-square&logo=github)](https://github.com/cleamax)
