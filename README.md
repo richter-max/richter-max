@@ -14,7 +14,7 @@ Passionate about **cybersecurity** and **blockchain security**, aiming to transi
 - Speaking engagements or demos on **Web Security** & **Secure Coding**  
 - **Full-time job opportunities** in backend or cybersecurity  
 - **Dual study program** positions in Computer Science or Cybersecurity  
-- **Scholarship opportunities** related to software engineering or security
+- **Scholarship opportunities** related to software engineering or Cybersecurity
   
 ---
 
