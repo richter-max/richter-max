@@ -64,7 +64,7 @@ I now focus on building security-focused projects that demonstrate practical ski
 ---
 
 ## 📜 Certifications
-*(Planned: Smart Contract Security, Blockchain Auditing, Offensive Security)*
+*(Planned)*
 
 ---
 
