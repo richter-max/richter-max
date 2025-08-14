@@ -3,7 +3,8 @@
 
 I'm a 21-year-old currently training as an IT Specialist in Application Development at Bosch.  
 Passionate about **cybersecurity** and **blockchain security**, aiming to transition fully into smart contract auditing and offensive/defensive blockchain security engineering.
-
+**Application Developer apprentice** @ Bosch • future **Cybersecurity** student.  
+I enjoy building secure, scalable backends and solving practical tech challenges.
 ---
 
 ## 🎯 Objective
