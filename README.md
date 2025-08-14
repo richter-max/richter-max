@@ -4,8 +4,13 @@
 I'm a 21-year-old currently training as an IT Specialist in Application Development at Bosch.  
 Passionate about **cybersecurity** and **blockchain security**, aiming to transition fully into smart contract auditing and offensive/defensive blockchain security engineering.
 ## 🤝 Open to
-- Werkstudent: **AppSec / Backend** (TypeScript/Python)  
-- Freelance: **Security-Checks** kleiner Websites/SaaS (legal & mit Einverständnis)
+- Working student roles in **AppSec** or **Backend Development** (TypeScript/Python)  
+- Freelance **security reviews** for small websites/SaaS (legal & with consent)  
+- **Smart contract** security audits & vulnerability demos (Solidity/Foundry)  
+- **Hackathon** participation in security, blockchain, or DevOps topics  
+- **Open-source** contributions to security tools or backend frameworks  
+- Speaking engagements or demos on **Web Security** & **Secure Coding**
+- 
 ---
 
 ## 🎯 Objective
