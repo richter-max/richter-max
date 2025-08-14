@@ -1,29 +1,38 @@
-# Hello, I'm Max
-<a href="https://www.linkedin.com/in/maximilian-richter-40697a298/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Hello, I'm Max  
+<a href="https://www.linkedin.com/in/maximilian-richter-40697a298/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>  
+<a href="https://github.com/cleamax"><img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" /></a>
 
-I'm a 21-year-old currently training as an IT specialist in application development at Bosch.
+I'm a 21-year-old currently training as an IT Specialist in Application Development at Bosch.  
+Passionate about **cybersecurity** and **blockchain security**, aiming to transition fully into smart contract auditing and offensive/defensive blockchain security engineering.
 
-## Objective
+---
 
-My journey in IT and application development has sparked a passion for cybersecurity, and I am now eager to transition into this field.
+## 🎯 Objective
+My journey in IT and application development has sparked a strong interest in cybersecurity.  
+I now focus on building security-focused projects that demonstrate practical skills in **threat detection**, **incident response**, and **smart contract vulnerability exploitation & mitigation**.
 
-## Skills
+---
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Network Traffic Monitoring and Attack Detection | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Security Automation with Shuffle SOAR         | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Incident Response Planning and Execution      | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Case Management with TheHive                  | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Scripting and Automation for Threat Mitigation | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| **Smart Contract Development**                | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> |
-| **ERC20 and ERC721 Standards**                | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> |
-| **Blockchain Interaction**                    | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> |
-| **Using OpenZeppelin for Secure Contracts**   | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> |
-| **Bug Bounty Program Development**            | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> |
+## 🛠 Skills
 
-## Tools
+| Skill                                         | Associated Project |
+|-----------------------------------------------|--------------------|
+| SIEM Implementation & Log Analysis           | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
+| Network Traffic Monitoring & Attack Detection| <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
+| Security Automation with Shuffle SOAR        | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
+| Incident Response Planning & Execution       | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
+| Case Management with TheHive                 | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
+| Scripting & Automation for Threat Mitigation | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
+| **Smart Contract Development & Auditing**    | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
+| **Exploit Development for Ethereum**         | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
+| **Vulnerability Analysis (Reentrancy, Access Control, Price Oracle, delegatecall, Arithmetic)** | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
+| **Secure Token & NFT Marketplace Development** | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
+| **Using OpenZeppelin for Secure Contracts**  | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
+| **Bug Bounty Program Development**           | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
+
+---
+
+## 🧰 Tools
 
 ### Network Monitoring
 <div>
@@ -45,20 +54,29 @@ My journey in IT and application development has sparked a passion for cybersecu
     <a href="https://www.elastic.co/"><img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" /></a>
 </div>
 
-### Blockchain and Smart Contract Development
+### Blockchain & Smart Contract Development
 <div>
     <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/-Solidity-363636?&style=for-the-badge&logo=solidity&logoColor=white" /></a>
     <a href="https://openzeppelin.com/"><img src="https://img.shields.io/badge/-OpenZeppelin-4C8BF5?&style=for-the-badge&logo=openzeppelin&logoColor=white" /></a>
     <a href="https://remix.ethereum.org/"><img src="https://img.shields.io/badge/-Remix-1A8C63?&style=for-the-badge&logo=remix&logoColor=white" /></a>
+    <a href="https://book.getfoundry.sh/"><img src="https://img.shields.io/badge/-Foundry-FF9900?&style=for-the-badge&logo=rust&logoColor=white" /></a>
 </div>
 
-## Certifications
+---
 
-<div>
-    <!-- Add your certifications here -->
-</div>
+## 📜 Certifications
+*(Planned: Smart Contract Security, Blockchain Auditing, Offensive Security)*
 
-## Projects
-- <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Project</a>
-- <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a>
+---
 
+## 🚀 Projects
+- <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> — Vulnerable smart contracts, exploits & write-ups to practice blockchain security  
+- <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Project</a> — Automated SIEM, SOAR, and Incident Response workflows  
+- <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> — ERC20/721-based marketplace with secure patterns  
+
+---
+
+## 📬 Contact
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/maximilian-richter-40697a298)  
+📧 Email: **deine.email@example.com**  
+[![GitHub](https://img.shields.io/badge/GitHub-cleamax-black?style=flat-square&logo=github)](https://github.com/cleamax)
