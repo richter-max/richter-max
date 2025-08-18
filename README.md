@@ -26,21 +26,12 @@ I now focus on building security-focused projects that demonstrate practical ski
 
 ## 🛠 Skills
 
-| Skill                                         | Associated Project |
-|-----------------------------------------------|--------------------|
-| Automated Web Security Scanning (Semgrep, Gitleaks, Nuclei, ZAP, GH Actions) | <a href="https://github.com/cleamax/SecCheck">SecCheck</a> |
-| SIEM Implementation & Log Analysis           | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Network Traffic Monitoring & Attack Detection| <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Security Automation with Shuffle SOAR        | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Incident Response Planning & Execution       | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Case Management with TheHive                 | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Scripting & Automation for Threat Mitigation | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| **Smart Contract Development & Auditing**    | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
-| **Exploit Development for Ethereum**         | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
-| **Vulnerability Analysis (Reentrancy, Access Control, Price Oracle, delegatecall, Arithmetic)** | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
-| **Secure Token & NFT Marketplace Development** | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
-| **Using OpenZeppelin for Secure Contracts**  | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
-| **Bug Bounty Program Development**           | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
+| Skillset (shortlist)                         | Associated Project |
+|----------------------------------------------|--------------------|
+| Automated Web Security Scanning (CI/CD, static/dynamic analysis, secret detection) | <a href="https://github.com/cleamax/SecCheck">SecCheck</a> |
+| SIEM Setup & Log Analysis • SOAR Automation • Incident Response | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
+| Smart Contract Development • Exploit Simulation • Vulnerability Analysis | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
+| Secure Token/NFT Marketplace Design • OpenZeppelin Patterns • Bug Bounty Concepts | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
 
 ---
 
