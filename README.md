@@ -14,8 +14,8 @@ Passionate about **cybersecurity**, with interests ranging from secure software 
 - Speaking engagements or demos on **Web Security** & **Secure Coding**  
 - **Full-time job opportunities** in cybersecurity  
 - **Dual study program** positions in Computer Science or Cybersecurity  
-- **Scholarship opportunities** related to software engineering or Cybersecurity
-  
+- **Scholarship opportunities** related to software engineering or Cybersecurity  
+
 ---
 
 ## 🎯 Objective
@@ -28,6 +28,7 @@ I now focus on building security-focused projects that demonstrate practical ski
 
 | Skill                                         | Associated Project |
 |-----------------------------------------------|--------------------|
+| Automated Web Security Scanning (Semgrep, Gitleaks, Nuclei, ZAP, GH Actions) | <a href="https://github.com/cleamax/SecCheck">SecCheck</a> |
 | SIEM Implementation & Log Analysis           | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
 | Network Traffic Monitoring & Attack Detection| <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
 | Security Automation with Shuffle SOAR        | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
@@ -84,6 +85,7 @@ I now focus on building security-focused projects that demonstrate practical ski
 - <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> — Vulnerable smart contracts, exploits & write-ups to practice blockchain security  
 - <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Project</a> — Automated SIEM, SOAR, and Incident Response workflows  
 - <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> — ERC20/721-based marketplace with secure patterns  
+- <a href="https://github.com/cleamax/SecCheck">SecCheck</a> — Lightweight Web Security Scanner for CI pipelines (TLS, headers, secrets, basic OWASP probes, CMS/plugin checks)  
 
 ---
 
@@ -91,3 +93,5 @@ I now focus on building security-focused projects that demonstrate practical ski
 📧 Email: **max.richter.dev@proton.me**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/maximilian-richter-40697a298)  
 [![GitHub](https://img.shields.io/badge/GitHub-cleamax-black?style=flat-square&logo=github)](https://github.com/cleamax)
+
+> All testing is performed legally and **only with explicit consent**.
