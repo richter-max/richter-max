@@ -7,7 +7,7 @@ Passionate about **cybersecurity**, with interests ranging from secure software 
 ---
 
 ## 🤝 Open to
-- Freelance **security reviews** for small websites/SaaS (legal & with consent)  
+- Freelance **security reviews** for small websites/SaaS  
 - **Smart contract** security audits & vulnerability demos (Solidity/Foundry)  
 - **Hackathon** participation in security, blockchain, or DevOps topics  
 - **Open-source** contributions to security tools or backend frameworks  
