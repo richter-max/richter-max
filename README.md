@@ -26,7 +26,7 @@ I now focus on building security-focused projects that demonstrate practical ski
 
 ## 🛠 Skills
 
-| Skillset (shortlist)                         | Associated Project |
+| Skillset                                     | Associated Project |
 |----------------------------------------------|--------------------|
 | Automated Web Security Scanning (CI/CD, static/dynamic analysis, secret detection) | <a href="https://github.com/cleamax/SecCheck">SecCheck</a> |
 | SIEM Setup & Log Analysis • SOAR Automation • Incident Response | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
