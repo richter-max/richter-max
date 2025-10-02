@@ -20,14 +20,17 @@ Passionate about **cybersecurity**, with interests ranging from secure software 
 
 ## 🎯 Objective
 My journey in IT and application development has sparked a strong interest in cybersecurity.  
-I now focus on building security-focused projects that demonstrate practical skills in **threat detection**, **incident response**, and **smart contract vulnerability exploitation & mitigation**.
+I now focus on building security-focused projects that demonstrate practical skills in **cloud security, threat detection, incident response, and vulnerability exploitation & mitigation**.  
+
+> Recently, I’ve been building a **[Cloud Pentest Lab](https://github.com/cleamax/cloud-pentest-lab)** to demonstrate practical offensive and defensive skills in AWS environments — from deploying misconfigured infrastructure to detecting and mitigating real-world attack paths.
 
 ---
 
 ## 🛠 Skills
 
-| Skillset                                     | Associated Project |
-|----------------------------------------------|--------------------|
+| Skillset                                                        | Associated Project |
+|-----------------------------------------------------------------|--------------------|
+| Cloud Security • Offensive Pentesting • IaC (Terraform, AWS)    | <a href="https://github.com/cleamax/cloud-pentest-lab">Cloud Pentest Lab</a> |
 | Automated Web Security Scanning (CI/CD, static/dynamic analysis, secret detection) | <a href="https://github.com/cleamax/SecCheck">SecCheck</a> |
 | SIEM Setup & Log Analysis • SOAR Automation • Incident Response | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
 | Smart Contract Development • Exploit Simulation • Vulnerability Analysis | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
@@ -36,6 +39,14 @@ I now focus on building security-focused projects that demonstrate practical ski
 ---
 
 ## 🧰 Tools
+
+### Cloud Security & IaC
+<div>
+    <img src="https://img.shields.io/badge/-Terraform-623CE4?&style=for-the-badge&logo=terraform&logoColor=white" />
+    <img src="https://img.shields.io/badge/-AWS-232F3E?&style=for-the-badge&logo=amazonaws&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GuardDuty-FF4F00?&style=for-the-badge&logo=amazonaws&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CloudTrail-FF9900?&style=for-the-badge&logo=amazonaws&logoColor=white" />
+</div>
 
 ### Network Monitoring
 <div>
@@ -73,10 +84,11 @@ I now focus on building security-focused projects that demonstrate practical ski
 ---
 
 ## 🚀 Projects
+- <a href="https://github.com/cleamax/cloud-pentest-lab">Cloud Pentest Lab</a> — Hands-on cloud security lab with intentionally vulnerable AWS configurations (public S3, SSRF in Lambda, IAM Priv-Esc) and accompanying write-ups & exploits  
 - <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> — Vulnerable smart contracts, exploits & write-ups to practice blockchain security  
 - <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Project</a> — Automated SIEM, SOAR, and Incident Response workflows  
 - <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> — ERC20/721-based marketplace with secure patterns  
-- <a href="https://github.com/cleamax/SecCheck">SecCheck</a> — Lightweight Web Security Scanner for CI pipelines (TLS, headers, secrets, basic OWASP probes, CMS/plugin checks)  
+- <a href="https://github.com/cleamax/SecCheck">SecCheck</a> — Lightweight web security scanner for CI pipelines (TLS, headers, secrets, basic OWASP probes, CMS/plugin checks)  
 
 ---
 
