@@ -1,80 +1,112 @@
 # Hello, I'm Max
 <a href="https://www.linkedin.com/in/maximilian-richter-40697a298/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>  
 
-I'm a 21-year-old German currently training as an IT Specialist in Application Development at Bosch (expected graduation: January 2026).  
-Passionate about **cybersecurity**, with interests ranging from secure software engineering and penetration testing to blockchain and smart contract security.
+I'm a 21-year-old German currently training as an IT Specialist in Application Development at Bosch (expected graduation: January 2026).
+
+My main interests lie in **cybersecurity** and **software engineering** — with a strong focus on understanding systems deeply, breaking them intentionally, and designing them more robust afterwards.  
+I’m especially interested in cloud security, web security, and security-oriented internal tooling.
 
 ---
 
 ## 🤝 Open to
-- Freelance **security reviews** for small websites/SaaS  
-- **Smart contract** security audits & vulnerability demos (Solidity/Foundry)  
-- **Hackathon** participation in security, blockchain, or DevOps topics  
-- **Open-source** contributions to security tools or backend frameworks  
-- Speaking engagements or demos on **Web Security** & **Secure Coding**  
-- **Full-time job opportunities** in cybersecurity  
-- **Dual study program** positions in Computer Science or Cybersecurity  
-- **Scholarship opportunities** related to software engineering or Cybersecurity  
+- Freelance **security reviews** for small websites or SaaS products  
+- **Smart contract** security analysis & exploit demonstrations  
+- **Hackathons** (security, blockchain, DevOps)  
+- **Open-source** contributions related to security or backend systems  
+- **Dual study programs** in Computer Science or Cybersecurity  
+- Entry-level or junior **cybersecurity roles**
 
 ---
 
 ## 🎯 Objective
-My journey in IT and application development has sparked a strong interest in cybersecurity.  
-I now focus on building security-focused projects that demonstrate practical skills in **cloud security, threat detection, incident response, and vulnerability exploitation & mitigation**.  
+Through my training and personal projects, I aim to build a strong practical foundation in cybersecurity.
 
-> Recently, I’ve been building a **[Cloud Pentest Lab](https://github.com/cleamax/cloud-pentest-lab)** to demonstrate practical offensive and defensive skills in AWS environments — from deploying misconfigured infrastructure to detecting and mitigating real-world attack paths.
+My focus is on:
+- understanding real-world attack paths
+- automating security checks and visibility
+- building small, purpose-driven tools that support decision-making
 
----
-
-## 🛠 Skills
-
-| Skillset                                                        | Associated Project |
-|-----------------------------------------------------------------|--------------------|
-| Cloud Security • Offensive Pentesting • IaC (Terraform, AWS)    | <a href="https://github.com/cleamax/cloud-pentest-lab">Cloud Pentest Lab</a> |
-| Automated Web Security Scanning (CI/CD, static/dynamic analysis, secret detection) | <a href="https://github.com/cleamax/SecCheck">SecCheck</a> |
-| SIEM Setup & Log Analysis • SOAR Automation • Incident Response | <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Lab</a> |
-| Smart Contract Development • Exploit Simulation • Vulnerability Analysis | <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> |
-| Secure Token/NFT Marketplace Design • OpenZeppelin Patterns • Bug Bounty Concepts | <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken & NFT Marketplace</a> |
+> Recently, I’ve been building a **[Cloud Pentest Lab](https://github.com/cleamax/cloud-pentest-lab)** to simulate realistic AWS misconfigurations and attack paths — from insecure IAM and S3 exposure to detection and mitigation workflows.
 
 ---
 
-## 🧰 Tools
+## 🛠 Skills (selected)
 
-### Cloud Security & IaC
+**Security & Systems**
+- Cloud security fundamentals (AWS, IAM, logging, detection)
+- Offensive security basics (web, cloud, smart contracts)
+- Incident response & log analysis
+- Threat modeling & attack surface awareness
+
+**Software Engineering**
+- Secure backend & web application design
+- Automation-focused tooling (security checks, internal tools)
+- Progressive Web Apps (PWA) for personal systems
+- Clean, maintainable TypeScript-based codebases
+
+**Blockchain Security**
+- Solidity smart contract development
+- Vulnerability analysis & exploit simulation
+- Secure patterns (OpenZeppelin, access control, validations)
+
+---
+
+## 🧰 Tools & Technologies
+
+### Cloud & IaC
 <div>
     <img src="https://img.shields.io/badge/-Terraform-623CE4?&style=for-the-badge&logo=terraform&logoColor=white" />
     <img src="https://img.shields.io/badge/-AWS-232F3E?&style=for-the-badge&logo=amazonaws&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GuardDuty-FF4F00?&style=for-the-badge&logo=amazonaws&logoColor=white" />
     <img src="https://img.shields.io/badge/-CloudTrail-FF9900?&style=for-the-badge&logo=amazonaws&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GuardDuty-FF4F00?&style=for-the-badge&logo=amazonaws&logoColor=white" />
 </div>
 
-### Network Monitoring
+### Monitoring & Detection
 <div>
-    <a href="https://www.wireshark.org/"><img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" /></a>
-    <a href="https://suricata-ids.org/"><img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" /></a>
-    <a href="https://zeek.org/"><img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" /></a>
+    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
 </div>
 
-### Endpoint Security
+### SIEM / IR
 <div>
-    <a href="https://www.microsoft.com/en-us/microsoft-365/security/endpoint-defender?activetab=pivot:overviewtab"><img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" /></a>
-    <a href="https://velociraptor.app/"><img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" /></a>
+    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
 </div>
 
-### SIEM Tools
+### Blockchain
 <div>
-    <a href="https://azure.microsoft.com/en-us/products/monitor/"><img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" /></a>
-    <a href="https://www.splunk.com/"><img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" /></a>
-    <a href="https://www.elastic.co/"><img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" /></a>
+    <img src="https://img.shields.io/badge/-Solidity-363636?&style=for-the-badge&logo=solidity&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OpenZeppelin-4C8BF5?&style=for-the-badge&logo=openzeppelin&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Foundry-FF9900?&style=for-the-badge&logo=rust&logoColor=white" />
 </div>
 
-### Blockchain & Smart Contract Development
-<div>
-    <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/-Solidity-363636?&style=for-the-badge&logo=solidity&logoColor=white" /></a>
-    <a href="https://openzeppelin.com/"><img src="https://img.shields.io/badge/-OpenZeppelin-4C8BF5?&style=for-the-badge&logo=openzeppelin&logoColor=white" /></a>
-    <a href="https://remix.ethereum.org/"><img src="https://img.shields.io/badge/-Remix-1A8C63?&style=for-the-badge&logo=remix&logoColor=white" /></a>
-    <a href="https://book.getfoundry.sh/"><img src="https://img.shields.io/badge/-Foundry-FF9900?&style=for-the-badge&logo=rust&logoColor=white" /></a>
-</div>
+---
+
+## 🚀 Projects
+
+### Security & Labs
+- **[Cloud Pentest Lab](https://github.com/cleamax/cloud-pentest-lab)**  
+  Hands-on AWS security lab with intentionally vulnerable configurations, attack paths, and detection strategies.
+
+- **[SOC Automation Project](https://github.com/cleamax/SOC-Automation)**  
+  Automated SIEM, SOAR, and incident response workflows.
+
+- **[SecCheck](https://github.com/cleamax/SecCheck)**  
+  Lightweight automated web security scanner for CI pipelines (TLS, headers, secrets, basic OWASP checks).
+
+- **[Blockchain Attack Playground](https://github.com/cleamax/blockchain-attack-playground)**  
+  Vulnerable smart contracts with exploit examples and security-focused write-ups.
+
+### Personal Tools (PWA)
+- **Arise**  
+  Personal performance and progression tracking tool focused on best efforts, consistency, and self-comparison.
+
+- **Candle**  
+  Trading execution tool built to enforce predefined setups, timeframes, and rule-based decision-making.
+
+These PWAs are private-first tools I actively use to support discipline and clarity — not public products.
 
 ---
 
@@ -83,18 +115,10 @@ I now focus on building security-focused projects that demonstrate practical ski
 
 ---
 
-## 🚀 Projects
-- <a href="https://github.com/cleamax/cloud-pentest-lab">Cloud Pentest Lab</a> — Hands-on cloud security lab with intentionally vulnerable AWS configurations (public S3, SSRF in Lambda, IAM Priv-Esc) and accompanying write-ups & exploits  
-- <a href="https://github.com/cleamax/blockchain-attack-playground">Blockchain Attack Playground</a> — Vulnerable smart contracts, exploits & write-ups to practice blockchain security  
-- <a href="https://github.com/cleamax/SOC-Automation">SOC Automation Project</a> — Automated SIEM, SOAR, and Incident Response workflows  
-- <a href="https://github.com/cleamax/FirstKryptoProject">SecureToken and NFT Marketplace</a> — ERC20/721-based marketplace with secure patterns  
-- <a href="https://github.com/cleamax/SecCheck">SecCheck</a> — Lightweight web security scanner for CI pipelines (TLS, headers, secrets, basic OWASP probes, CMS/plugin checks)  
-
----
-
 ## 📬 Contact
-📧 Email: **max.richter.dev@proton.me**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/maximilian-richter-40697a298)  
-[![GitHub](https://img.shields.io/badge/GitHub-cleamax-black?style=flat-square&logo=github)](https://github.com/cleamax)
+📧 **max.richter.dev@proton.me**  
+[LinkedIn](https://www.linkedin.com/in/maximilian-richter-40697a298/)  
+[GitHub](https://github.com/cleamax)
 
-> All testing is performed legally and **only with explicit consent**.
+> All testing and experimentation is performed legally and **only with explicit consent**.
+
