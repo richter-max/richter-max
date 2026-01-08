@@ -100,10 +100,10 @@ My focus is on:
   Vulnerable smart contracts with exploit examples and security-focused write-ups.
 
 ### Personal Tools (PWA)
-- **Arise**  
+- **[Arise](https://github.com/cleamax/arise)**  
   Personal performance and progression tracking tool focused on best efforts, consistency, and self-comparison.
 
-- **Candle**  
+- **[Candle](https://github.com/cleamax/candle)**  
   Trading execution tool built to enforce predefined setups, timeframes, and rule-based decision-making.
 
 These PWAs are private-first tools I actively use to support discipline and clarity — not public products.
