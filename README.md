@@ -1,7 +1,7 @@
 # Hello, I'm Max
 <a href="https://www.linkedin.com/in/maximilian-richter-40697a298/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>  
 
-I'm a 21-year-old German currently training as an IT Specialist in Application Development at Bosch (expected graduation: January 2026).
+I'm a 21-year-old German currently training as an IT Specialist in Application Development at Bosch (expected graduation: March 2026).
 
 My main interests lie in **cybersecurity** and **software engineering** — with a strong focus on understanding systems deeply, breaking them intentionally, and designing them more robust afterwards.  
 I’m especially interested in cloud security, web security, and security-oriented internal tooling.
