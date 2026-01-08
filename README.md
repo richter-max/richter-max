@@ -106,8 +106,15 @@ These PWAs are private-first tools I actively use. They are not public products 
 ---
 
 ## 📬 Contact
+
 📧 **max.richter.dev@proton.me**  
-[LinkedIn]<a href="https://www.linkedin.com/in/maximilian-richter-40697a298/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-[GitHub](https://github.com/cleamax)
+
+<a href="https://www.linkedin.com/in/maximilian-richter-40697a298/">
+  <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/cleamax">
+  <img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 > All testing and experimentation is performed legally and only with explicit consent.
