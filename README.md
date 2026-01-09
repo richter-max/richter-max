@@ -8,7 +8,7 @@ My main interests are **cybersecurity** and **secure software engineering**, wit
 
 ---
 
-## 🎯 Focus
+## Focus
 
 My work and projects revolve around:
 - cloud and web security fundamentals
@@ -20,7 +20,7 @@ I prefer hands-on projects over theoretical abstractions and focus on tools I ac
 
 ---
 
-## 🛠 Skills (selected)
+## Skills (selected)
 
 **Security & Systems**
 - Cloud security fundamentals (AWS, IAM, logging, detection)
@@ -41,7 +41,7 @@ I prefer hands-on projects over theoretical abstractions and focus on tools I ac
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 ### Cloud & IaC
 <div>
@@ -74,7 +74,7 @@ I prefer hands-on projects over theoretical abstractions and focus on tools I ac
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### Security & Labs
 - **[Cloud Pentest Lab](https://github.com/cleamax/cloud-pentest-lab)**  
@@ -100,12 +100,12 @@ These PWAs are private-first tools I actively use. They are not public products 
 
 ---
 
-## 📜 Certifications
+## Certifications
 *(Nothing Planned right now)*
 
 ---
 
-## 📬 Contact
+## Contact
 
 📧 **max.richter.dev@proton.me**  
 
