@@ -4,9 +4,7 @@
   <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-I'm a German IT Specialist in Application Development.  
-I **completed my vocational training at Bosch in January 2026** and will continue with a
-**dual study program starting October 2026**.
+I'm a German IT Specialist in Application Development, I completed my vocational Training January 2026 as Software Developer and will continue  with a **dual study program starting October 2026**.
 
 My core interests are **cybersecurity** and **secure software engineering**, with a strong focus on
 understanding systems end-to-end, identifying realistic weaknesses, and building **practical security tooling**
@@ -56,7 +54,7 @@ https://github.com/cleamax/attack-surface-scanner
 
 **Documentation:**  
 - Threat Model  
-- Design Decisions  
+- Design Decisions
 
 This project is designed to be discussed in **security engineering interviews**.
 
@@ -145,4 +143,3 @@ These tools are private-first, internal systems that I actively use.
 </a>
 
 > All testing and experimentation is performed legally and only with explicit consent.
-
