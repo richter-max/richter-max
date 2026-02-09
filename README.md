@@ -58,7 +58,6 @@ It is a **provider-agnostic framework** for testing, benchmarking, and enforcing
 **Repository:**  
 https://github.com/cleamax/aegis
 
-This project is intentionally built to be **discussed deeply in security engineering interviews**.
 
 ---
 
