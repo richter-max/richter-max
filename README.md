@@ -116,7 +116,7 @@ This project is intentionally built to be **discussed deeply in security enginee
 
 ---
 
-## Other Projects (Selected)
+## Other Projects (some maybe private)
 
 ### Security & Labs
 - **Cloud Pentest Lab** — vulnerable AWS setups with detection strategies  
