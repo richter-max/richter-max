@@ -25,7 +25,7 @@ I strongly prefer **practical systems** over theoretical abstractions.
 
 ---
 
-## 🔐 Flagship Project — Attack Surface Scanner for SaaS
+## Flagship Project — Attack Surface Scanner for SaaS
 
 **Non-intrusive attack surface and transport security scanner** designed for real-world SaaS environments.
 
