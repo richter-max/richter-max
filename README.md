@@ -1,83 +1,85 @@
-# Hello, I'm Max
+# Hi, I’m Max 👋
 
 <a href="https://www.linkedin.com/in/maximilian-richter-40697a298/">
   <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-I'm a German IT Specialist in Application Development, I completed my vocational Training January 2026 as Software Developer and will continue  with a **dual study program starting October 2026**.
+I’m a German **IT Specialist in Application Development**.  
+I completed my vocational training as a **Software Developer in January 2026** and will continue with a **dual B.Sc. program (Computer Science, Cybersecurity focus) starting October 2026**.
 
-My core interests are **cybersecurity** and **secure software engineering**, with a strong focus on
-understanding systems end-to-end, identifying realistic weaknesses, and building **practical security tooling**
-around visibility, risk, and control.
+My work centers on **cybersecurity and secure software engineering**, with a strong emphasis on:
+- understanding systems end-to-end
+- identifying realistic attack paths and failure modes
+- building **practical, explainable security tooling** for visibility, risk, and control
 
----
-
-## Current Focus
-
-I focus on **hands-on security engineering**, especially:
-
-- understanding real-world attack surfaces of cloud and SaaS systems
-- transport security and configuration weaknesses
-- deterministic, explainable security signals instead of black-box tooling
-- building small, reliable tools that support consistent decision-making
-
-I strongly prefer **practical systems** over theoretical abstractions.
+I optimize for **engineering signal**, not surface-level demos.
 
 ---
 
-## Flagship Project — Attack Surface Scanner for SaaS
+## What I Currently Focus On
 
-**Non-intrusive attack surface and transport security scanner** designed for real-world SaaS environments.
+Hands-on **security engineering**, especially:
 
-This project is intentionally built as a **security engineering signal** (not a pentesting tool) and reflects
-how security teams reason about **exposure, misconfiguration, and prioritization**.
+- external attack surface analysis for cloud & SaaS systems  
+- transport-layer security and configuration weaknesses  
+- deterministic, explainable security signals over black-box scores  
+- small, reliable tools that support consistent security decisions  
 
-**Key aspects:**
-- Passive asset discovery via **Certificate Transparency logs**
-- Deterministic fallback behavior for **enterprise proxy-restricted networks**
-- DNS resolution + HTTP/HTTPS probing (redirect-aware)
-- Security checks:
-  - Deprecated TLS versions (1.0 / 1.1)
-  - TLS certificate expiration
-  - HTTP security headers (HSTS, CSP, X-Frame-Options, nosniff, Referrer-Policy)
-- **Deterministic, explainable risk scoring** (low / medium / high)
-- Outputs:
-  - Structured JSON artifacts
-  - Rich CLI summary for fast triage
-- Engineering quality:
-  - Typed data models (Pydantic)
-  - Unit tests + GitHub Actions CI
-  - Python 3.10–3.12 compatibility
+I strongly prefer **real systems** over purely theoretical abstractions.
+
+---
+
+## Flagship Project — AEGIS  
+### LLM Safety Evaluation & Security Framework
+
+**AEGIS** is my primary project and represents how I think about **security, risk, and evaluation at system level**.
+
+It is a **provider-agnostic framework** for testing, benchmarking, and enforcing safety constraints in LLM-based systems — designed in the style of an **internal security platform**, not a demo.
+
+**Core ideas:**
+- explicit threat modeling for LLM misuse & policy violations  
+- deterministic evaluation instead of ad-hoc prompting  
+- clear separation between *policy*, *guardrails*, *execution*, and *judging*
+
+**Key components:**
+- CLI framework (`run`, `bench`, `eval`)
+- trace-based executions (`trace.jsonl`) for reproducibility
+- layered guardrails (keyword, semantic, staged)
+- strict vs. permissive policy modes
+- spec-driven evaluation scenarios
+- staged scoring judge with transparent reasoning
+- provider-agnostic LLM abstraction layer
+
+**Engineering focus:**
+- reproducibility & explainability  
+- explicit trade-offs instead of hidden magic  
+- clean internal APIs and testable components  
 
 **Repository:**  
-https://github.com/cleamax/attack-surface-scanner
+https://github.com/cleamax/aegis
 
-**Documentation:**  
-- Threat Model  
-- Design Decisions
-
-This project is designed to be discussed in **security engineering interviews**.
+This project is intentionally built to be **discussed deeply in security engineering interviews**.
 
 ---
 
-## Skills (selected)
+## Selected Skills
 
 ### Security & Systems
-- Cloud security fundamentals (AWS, IAM, logging, detection)
-- Attack surface analysis & threat modeling
-- Web security & transport-layer security
-- Incident response concepts & log analysis
+- Attack surface analysis & threat modeling  
+- Cloud security fundamentals (IAM, logging, detection)  
+- Web & transport-layer security  
+- Incident response concepts & log analysis  
 
 ### Software Engineering
-- Secure backend & web application design
-- Automation-focused internal tooling
-- Clear, maintainable codebases
-- Deterministic systems with explainable outputs
+- Secure backend & web application design  
+- Automation-focused internal tooling  
+- Clean, maintainable, review-ready codebases  
+- Deterministic systems with explainable outputs  
 
 ### Blockchain Security
-- Solidity smart contract development
-- Vulnerability analysis & exploit simulation
-- Secure design patterns (OpenZeppelin)
+- Solidity smart contract development  
+- Vulnerability analysis & exploit simulation  
+- Secure design patterns (OpenZeppelin)  
 
 ---
 
@@ -114,19 +116,19 @@ This project is designed to be discussed in **security engineering interviews**.
 
 ---
 
-## Other Projects
+## Other Projects (Selected)
 
 ### Security & Labs
-- **Cloud Pentest Lab** — intentionally vulnerable AWS configurations with detection strategies  
-- **SOC Automation Project** — automated SIEM / SOAR workflows  
-- **SecCheck** — lightweight CI-focused web security scanner  
+- **Cloud Pentest Lab** — vulnerable AWS setups with detection strategies  
+- **SOC Automation** — automated SIEM / SOAR workflows  
+- **Attack Surface Scanner** — CI-focused lightweight web security scanner  
 - **Blockchain Attack Playground** — vulnerable smart contracts with exploit write-ups  
 
-### Personal Tools (PWA)
-- **Arise** — personal performance and consistency tracking  
+### Personal Internal Tools
+- **Arise** — performance & consistency tracking  
 - **Candle** — rule-based trading execution & discipline enforcement  
 
-These tools are private-first, internal systems that I actively use.
+Most of these systems are **private-first internal tools** that I actively use and iterate on.
 
 ---
 
@@ -143,3 +145,4 @@ These tools are private-first, internal systems that I actively use.
 </a>
 
 > All testing and experimentation is performed legally and only with explicit consent.
+
