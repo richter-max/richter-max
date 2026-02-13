@@ -139,7 +139,7 @@ Most of these systems are **private-first internal tools** that I actively use a
   <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="https://github.com/cleamax">
+<a href="https://github.com/richter-max">
   <img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
