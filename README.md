@@ -3,7 +3,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/maximilian-richter-40697a298)
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.richtermax.com/)
 
-
 I’m a German **IT Specialist in Application Development**.  
 I completed my vocational training as a **Software Developer in January 2026** and will continue with a **dual B.Sc. program (Computer Science, Cybersecurity focus) starting October 2026**.
 
