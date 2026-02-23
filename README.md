@@ -1,9 +1,8 @@
 # Hi, I’m Max 👋
 
-<a href="https://www.linkedin.com/in/maximilian-richter-40697a298/">
-  <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-[![Website](https://img.shields.io/badge/richtermax.com-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://www.richtermax.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/DEINNAME)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.richtermax.com/)
+
 
 I’m a German **IT Specialist in Application Development**.  
 I completed my vocational training as a **Software Developer in January 2026** and will continue with a **dual B.Sc. program (Computer Science, Cybersecurity focus) starting October 2026**.
