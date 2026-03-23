@@ -11,7 +11,6 @@ My work centers on **cybersecurity and secure software engineering**, with a str
 - identifying realistic attack paths and failure modes
 - building **practical, explainable security tooling** for visibility, risk, and control
 
-I optimize for **engineering signal**, not surface-level demos.
 
 ---
 
