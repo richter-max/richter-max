@@ -1,145 +1,106 @@
-# Hi, I’m Max 👋
+# Max Richter
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/maximilian-richter-40697a298)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.richtermax.com/)
+**Security engineering with a focus on AI agent robustness — prompt injection, tool misuse, and evaluation.**
 
-I’m a German **IT Specialist in Application Development**.  
-I completed my vocational training as a **Software Developer in January 2026** and will continue with a **dual B.Sc. program (Computer Science, Cybersecurity focus) starting October 2026**.
+[![Website](https://img.shields.io/badge/richtermax.com-000000?style=flat-square&logo=google-chrome&logoColor=white)](https://www.richtermax.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximilian-richter-40697a298)
 
-My work centers on **cybersecurity and secure software engineering**, with a strong emphasis on:
-- understanding systems end-to-end
-- identifying realistic attack paths and failure modes
-- building **practical, explainable security tooling** for visibility, risk, and control
-
+Completed my German vocational training (*Ausbildung*) as a Software Developer in January 2026.
+Starting a dual B.Sc. in Computer Science with a cybersecurity focus at Bosch in October 2026.
 
 ---
 
-## What I Currently Focus On
+## What I work on
 
-Hands-on **security engineering**, especially:
+LLM-based systems are being handed real capabilities — tool calls, file access, API keys — faster
+than anyone has figured out how to constrain them. That gap is what I spend my time on.
 
-- external attack surface analysis for cloud & SaaS systems  
-- transport-layer security and configuration weaknesses  
-- deterministic, explainable security signals over black-box scores  
-- small, reliable tools that support consistent security decisions  
+Specifically:
 
-I strongly prefer **real systems** over purely theoretical abstractions.
+- **Prompt injection** — direct, indirect, and via tool descriptions
+- **Agent containment** — what an agent can reach once an attack lands
+- **Evaluation** — deterministic, reproducible measurement instead of vibes-based testing
+- **Defense layering** — where filters actually hold and where they only look like they do
 
----
-
-## Flagship Project — AEGIS  
-### LLM Safety Evaluation & Security Framework
-
-**AEGIS** is my primary project and represents how I think about **security, risk, and evaluation at system level**.
-
-It is a **provider-agnostic framework** for testing, benchmarking, and enforcing safety constraints in LLM-based systems — designed in the style of an **internal security platform**, not a demo.
-
-**Core ideas:**
-- explicit threat modeling for LLM misuse & policy violations  
-- deterministic evaluation instead of ad-hoc prompting  
-- clear separation between *policy*, *guardrails*, *execution*, and *judging*
-
-**Key components:**
-- CLI framework (`run`, `bench`, `eval`)
-- trace-based executions (`trace.jsonl`) for reproducibility
-- layered guardrails (keyword, semantic, staged)
-- strict vs. permissive policy modes
-- spec-driven evaluation scenarios
-- staged scoring judge with transparent reasoning
-- provider-agnostic LLM abstraction layer
-
-**Engineering focus:**
-- reproducibility & explainability  
-- explicit trade-offs instead of hidden magic  
-- clean internal APIs and testable components  
-
-**Repository:**  
-https://github.com/cleamax/aegis
-
+I care more about knowing *why* a guardrail failed than about the headline number it produces.
 
 ---
 
-## Selected Skills
+## AEGIS — agent security evaluation framework
 
-### Security & Systems
-- Attack surface analysis & threat modeling  
-- Cloud security fundamentals (IAM, logging, detection)  
-- Web & transport-layer security  
-- Incident response concepts & log analysis  
+**[richter-max/aegis](https://github.com/richter-max/aegis)** · Python
 
-### Software Engineering
-- Secure backend & web application design  
-- Automation-focused internal tooling  
-- Clean, maintainable, review-ready codebases  
-- Deterministic systems with explainable outputs  
+A provider-agnostic harness for testing how tool-using LLM agents behave under attack, and for
+measuring whether a given defense actually changes that.
 
-### Blockchain Security
-- Solidity smart contract development  
-- Vulnerability analysis & exploit simulation  
-- Secure design patterns (OpenZeppelin)  
+**Design:**
 
----
+- Strict separation of *policy*, *guardrails*, *execution*, and *judging* — so a result can be
+  traced to the component that produced it
+- Spec-driven scenarios rather than ad-hoc prompts, so runs are comparable across models
+- `trace.jsonl` per execution for full reproducibility
+- Layered guardrails: keyword, policy allowlist, semantic n-gram
+- CLI: `run`, `bench`, `eval`
 
-## Tools & Technologies
+**Measured on my scenario set** — attack success rate:
 
-### Cloud & IaC
-<div>
-  <img src="https://img.shields.io/badge/-Terraform-623CE4?&style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/-AWS-232F3E?&style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/-CloudTrail-FF9900?&style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/-GuardDuty-FF4F00?&style=for-the-badge&logo=amazonaws&logoColor=white" />
-</div>
+| Configuration | Attack success |
+|---|---|
+| No defense (baseline) | 82% |
+| Keyword regex | 41% |
+| Policy allowlist | 23% |
+| Semantic n-gram | 9% |
 
-### Monitoring & Detection
-<div>
-  <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
+**What these numbers are not:** a benchmark. The scenario set is mine, the attacks are ones I
+thought of, and 9% residual means roughly one in eleven attacks still lands. The interesting part
+isn't the drop — it's which attacks survive semantic filtering, which is what I'm working on now.
 
-### SIEM / IR
-<div>
-  <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
-
-### Blockchain
-<div>
-  <img src="https://img.shields.io/badge/-Solidity-363636?&style=for-the-badge&logo=solidity&logoColor=white" />
-  <img src="https://img.shields.io/badge/-OpenZeppelin-4C8BF5?&style=for-the-badge&logo=openzeppelin&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Foundry-FF9900?&style=for-the-badge&logo=rust&logoColor=white" />
-</div>
+Full methodology and limitations in the repo.
 
 ---
 
-## Other Projects (some maybe private)
+## Attack Surface Scanner
 
-### Security & Labs
-- **Cloud Pentest Lab** — vulnerable AWS setups with detection strategies  
-- **SOC Automation** — automated SIEM / SOAR workflows  
-- **Attack Surface Scanner** — CI-focused lightweight web security scanner  
-- **Blockchain Attack Playground** — vulnerable smart contracts with exploit write-ups  
+**[richter-max/attack-surface-scanner](https://github.com/richter-max/attack-surface-scanner)** · Python
 
-### Personal Internal Tools
-- **Arise** — performance & consistency tracking  
-- **Candle** — rule-based trading execution & discipline enforcement  
+Single-command external recon: DNS records, open ports, subdomain enumeration, security header
+analysis. Built for CI use — fast, no dependencies beyond stdlib where avoidable, exit codes that
+mean something.
 
-Most of these systems are **private-first internal tools** that I actively use and iterate on.
+Scans a typical target in under 30 seconds.
+
+---
+
+## Foundations
+
+AI security sits on top of ordinary security, so I keep working on the layer underneath.
+
+**Systems & offensive fundamentals** — currently working through
+[pwn.college](https://pwn.college): assembly, shellcode, reverse engineering, memory corruption.
+Not because I intend to write exploits for a living, but because you cannot reason about what an
+agent can reach if you do not understand what a process can reach.
+
+**Cloud & detection** — external attack surface analysis, IAM misconfiguration, log-based
+detection. Practical familiarity with AWS (CloudTrail, GuardDuty), Terraform, and the Elastic
+stack.
+
+**Network analysis** — Wireshark, Suricata, Zeek for traffic-level investigation.
+
+---
+
+## Writing
+
+I publish technical write-ups at **[richtermax.com/blog](https://www.richtermax.com/blog)** —
+mostly on agent security, occasionally on what endurance training and engineering have in common.
 
 ---
 
 ## Contact
 
-📧 **max.richter.dev@proton.me**
+📧 **max.richter.dev@proton.me** — happy to talk about agent security, research collaboration,
+or anything in the repos above.
 
-<a href="https://www.linkedin.com/in/maximilian-richter-40697a298/">
-  <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+---
 
-<a href="https://github.com/richter-max">
-  <img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-> All testing and experimentation is performed legally and only with explicit consent.
-
+> All testing and experimentation is performed legally, on systems I own or have explicit written
+> permission to test.
