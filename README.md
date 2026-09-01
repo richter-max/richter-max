@@ -18,7 +18,7 @@ than anyone has figured out how to constrain them. That gap is what I spend my t
 Specifically:
 
 - **Prompt injection** — direct, indirect, and via tool descriptions
-- **Agent containment** — what an agent can reach once an attack lands
+- **Agent containment** — what an agent can still reach once an attack lands
 - **Evaluation** — deterministic, reproducible measurement instead of vibes-based testing
 - **Defense layering** — where filters actually hold and where they only look like they do
 
@@ -26,36 +26,40 @@ I care more about knowing *why* a guardrail failed than about the headline numbe
 
 ---
 
-## AEGIS — agent security evaluation framework
+## AEGIS — agent security evaluation harness
 
 **[richter-max/aegis](https://github.com/richter-max/aegis)** · Python
 
-A provider-agnostic harness for testing how tool-using LLM agents behave under attack, and for
-measuring whether a given defense actually changes that.
+A deterministic harness for measuring what a defense stack stops when a tool-using agent is
+attacked — and what it breaks in the process. 20 attacks across four families at three evasion
+tiers, plus 10 benign controls, run against every policy and guard configuration.
 
 **Design:**
 
-- Strict separation of *policy*, *guardrails*, *execution*, and *judging* — so a result can be
-  traced to the component that produced it
-- Spec-driven scenarios rather than ad-hoc prompts, so runs are comparable across models
-- `trace.jsonl` per execution for full reproducibility
-- Layered guardrails: keyword, policy allowlist, semantic n-gram
-- CLI: `run`, `bench`, `eval`
+- Strict separation of *policy*, *guardrails*, *execution* and *judging*, so a result can be
+  attributed to the component that produced it
+- Ground truth comes from the scenario corpus, not from a detector — a keyword-based judge would
+  score keyword-evading attacks as though no attack occurred
+- `trace.jsonl` per run, with every decision tagged by the layer that made it
+- Scenarios are data, not code
 
-**Measured on my scenario set** — attack success rate:
+**Results** — full corpus, permissive policy, so the guards are the only thing acting:
 
-| Configuration | Attack success |
-|---|---|
-| No defense (baseline) | 82% |
-| Keyword regex | 41% |
-| Policy allowlist | 23% |
-| Semantic n-gram | 9% |
+| Guards | Attack success | False positives |
+|---|---|---|
+| none | 100% (20/20) | 0% (0/10) |
+| keyword | 70% (14/20) | 20% (2/10) |
+| semantic | 70% (14/20) | 0% (0/10) |
+| layered | 70% (14/20) | 20% (2/10) |
 
-**What these numbers are not:** a benchmark. The scenario set is mine, the attacks are ones I
-thought of, and 9% residual means roughly one in eleven attacks still lands. The interesting part
-isn't the drop — it's which attacks survive semantic filtering, which is what I'm working on now.
+Two things worth pulling out. **Content inspection only catches attacks that name themselves** —
+every guard stops 100% of attacks containing literal tokens like `exfil`, and 0% of the 14 that
+avoid that vocabulary. And **layering made it strictly worse**: the layered stack detects exactly
+what the semantic guard alone detects, while inheriting the keyword guard's false positives.
 
-Full methodology and limitations in the repo.
+The harness runs a deterministic mock agent, not a live LLM, so these numbers characterise the
+guard stack rather than any real model. CI re-runs the sweep and fails if the published figures
+drift. Full methodology and limitations in the repo.
 
 ---
 
@@ -63,11 +67,19 @@ Full methodology and limitations in the repo.
 
 **[richter-max/attack-surface-scanner](https://github.com/richter-max/attack-surface-scanner)** · Python
 
-Single-command external recon: DNS records, open ports, subdomain enumeration, security header
-analysis. Built for CI use — fast, no dependencies beyond stdlib where avoidable, exit codes that
-mean something.
+Non-intrusive external attack surface and transport security scanner. Passive hostname discovery
+from Certificate Transparency, DNS resolution, HTTP/HTTPS probing, TLS version and certificate
+analysis, security header checks, and deterministic risk scoring. JSON artifact plus a console
+summary, with `--fail-on` for use as a CI gate.
 
-Scans a typical target in under 30 seconds.
+No port scanning, no brute forcing, no exploitation — DNS lookups, plain `GET` requests and TLS
+handshakes only.
+
+The part I would point at first is scope containment. Certificate Transparency data is
+attacker-influenceable: anyone can obtain a certificate for a lookalike domain and it appears in
+the logs. Every discovered hostname is checked against the target scope before it is probed,
+because `"evilexample.com".endswith("example.com")` is `True` and a suffix test would authorise
+sending traffic to a host the operator never approved.
 
 ---
 
@@ -75,30 +87,29 @@ Scans a typical target in under 30 seconds.
 
 AI security sits on top of ordinary security, so I keep working on the layer underneath.
 
-**Systems & offensive fundamentals** — currently working through
-[pwn.college](https://pwn.college): assembly, shellcode, reverse engineering, memory corruption.
-Not because I intend to write exploits for a living, but because you cannot reason about what an
-agent can reach if you do not understand what a process can reach.
+**Systems and offensive fundamentals** — working through [pwn.college](https://pwn.college):
+assembly, shellcode, reverse engineering, memory corruption. Not because I intend to write
+exploits for a living, but because you cannot reason about what an agent can reach without
+understanding what a process can reach.
 
-**Cloud & detection** — external attack surface analysis, IAM misconfiguration, log-based
-detection. Practical familiarity with AWS (CloudTrail, GuardDuty), Terraform, and the Elastic
-stack.
+**Cloud and detection** — external attack surface analysis, IAM misconfiguration, log-based
+detection. Practical familiarity with AWS (CloudTrail, GuardDuty), Terraform and the Elastic stack.
 
-**Network analysis** — Wireshark, Suricata, Zeek for traffic-level investigation.
+**Network analysis** — Wireshark, Suricata and Zeek for traffic-level investigation.
 
 ---
 
 ## Writing
 
-I publish technical write-ups at **[richtermax.com/blog](https://www.richtermax.com/blog)** —
-mostly on agent security, occasionally on what endurance training and engineering have in common.
+Technical write-ups at **[richtermax.com/blog](https://www.richtermax.com/blog)** — mostly on
+agent security, occasionally on what endurance training and engineering have in common.
 
 ---
 
 ## Contact
 
-📧 **max.richter.dev@proton.me** — happy to talk about agent security, research collaboration,
-or anything in the repos above.
+**max.richter.dev@proton.me** — happy to talk about agent security, research collaboration, or
+anything in the repos above.
 
 ---
 
